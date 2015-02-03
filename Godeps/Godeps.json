@@ -1,0 +1,42 @@
+{
+	"ImportPath": "github.com/skynetservices/skydns",
+	"GoVersion": "go1.4.1",
+	"Deps": [
+		{
+			"ImportPath": "bitbucket.org/kardianos/osext",
+			"Comment": "null-15",
+			"Rev": "44140c5fc69ecf1102c5ef451d73cd98ef59b178"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-etcd/etcd",
+			"Comment": "v0.4.6",
+			"Rev": "6aa2da5a7a905609c93036b9307185a04a5a84a5"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-log/log",
+			"Rev": "70d039bee4b0e389e5be560491d8291708506f59"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/activation",
+			"Comment": "v2-43-g2d21675",
+			"Rev": "2d21675230a81a503f4363f4aa3490af06d52bb8"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/journal",
+			"Comment": "v2-43-g2d21675",
+			"Rev": "2d21675230a81a503f4363f4aa3490af06d52bb8"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "a76c0a363dd4798064787c742fdf54a593787e91"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "dee209f2455f101a5e4e593dea94872d2c62d85d"
+		},
+		{
+			"ImportPath": "github.com/stathat/go",
+			"Rev": "01d012b9ee2ecc107cb28b6dd32d9019ed5c1d77"
+		}
+	]
+}
