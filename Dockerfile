@@ -6,11 +6,9 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 
 RUN go get github.com/tools/godep
 WORKDIR /go/src/github.com/skynetservices/skydns
-
 ADD . /go/src/github.com/skynetservices/skydns
 
-RUN godep get
-RUN godep go build -v
+RUN godep go install -v
 
 EXPOSE 53
 ENTRYPOINT ["skydns"]
